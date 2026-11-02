@@ -1,0 +1,61 @@
+========================================
+       AUDIO SIGNAL ANALYSIS
+========================================
+
+Selected file: /MATLAB Drive/audio_capture.dat
+
+---------- ACQUISITION DETAILS ----------
+File name              : audio_capture.dat
+Number of samples      : 48613
+File size              : 97227 bytes
+Sampling frequency     : 5000.00 Hz
+Sampling period        : 0.000200 seconds
+Signal duration        : 9.7226 seconds
+Nyquist frequency      : 2500.00 Hz
+ADC resolution         : 12 bits (configured)
+ADC theoretical levels : 4096
+
+---------- TIME-DOMAIN STATISTICS ----------
+Minimum ADC count      : 2668
+Maximum ADC count      : 31776
+Mean ADC count         : 21768.71
+Standard deviation     : 8351.64 counts
+RMS ADC count          : 23315.77 counts
+Peak-to-peak amplitude : 29108 counts
+Minimum voltage        : 2.1500 V (estimated)
+Maximum voltage        : 25.6070 V (estimated)
+Peak-to-peak voltage   : 23.4570 V (estimated)
+
+---------- FFT DETAILS ----------
+FFT length             : 48613 points
+Frequency resolution   : 0.1029 Hz
+Frequency range        : 0 to 2500.00 Hz (one-sided)
+Spectrum method        : FFT
+
+---------- FREQUENCY ANALYSIS ----------
+Dominant frequency     : 2252.69 Hz
+Peak FFT power         : 1.3418e+14 (counts squared)
+AC RMS amplitude       : 8351.55 ADC counts
+Mean-square value      : 69748401.0585 counts squared
+
+---------- WELCH PSD DETAILS ----------
+Method                 : Welch power spectral density
+Window                 : Hamming
+Window length          : 512 samples
+Overlap                : 256 samples
+FFT length             : 512 points
+Frequency resolution   : 9.7656 Hz
+Dominant PSD frequency : 205.08 Hz
+Peak PSD value         : 2.0987e+05 counts^2/Hz
+
+---------- TOP SPECTRAL PEAKS ----------
+Rank    Frequency (Hz)    Power (counts^2)
+1       2252.69           1.3418e+14
+2       204.78            1.1794e+14
+3       199.84            1.1399e+14
+4       206.84            1.0778e+14
+5       203.75            1.0721e+14
+
+========================================
+       ANALYSIS COMPLETED
+========================================

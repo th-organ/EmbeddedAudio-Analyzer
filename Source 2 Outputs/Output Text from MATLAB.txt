@@ -1,0 +1,63 @@
+
+========================================
+       AUDIO SIGNAL ANALYSIS
+========================================
+
+Selected file: /MATLAB Drive/audio_capture.dat
+
+---------- ACQUISITION DETAILS ----------
+File name              : audio_capture.dat
+Number of samples      : 48433
+File size              : 96867 bytes
+Sampling frequency     : 5000.00 Hz
+Sampling period        : 0.000200 seconds
+Signal duration        : 9.6866 seconds
+Nyquist frequency      : 2500.00 Hz
+ADC resolution         : 12 bits (configured)
+ADC theoretical levels : 4096
+
+---------- TIME-DOMAIN STATISTICS ----------
+Minimum ADC count      : 2668
+Maximum ADC count      : 31776
+Mean ADC count         : 21563.00
+Standard deviation     : 8401.13 counts
+RMS ADC count          : 23141.75 counts
+Peak-to-peak amplitude : 29108 counts
+Minimum voltage        : 2.1500 V (estimated)
+Maximum voltage        : 25.6070 V (estimated)
+Peak-to-peak voltage   : 23.4570 V (estimated)
+
+---------- FFT DETAILS ----------
+FFT length             : 48433 points
+Frequency resolution   : 0.1032 Hz
+Frequency range        : 0 to 2500.00 Hz (one-sided)
+Spectrum method        : FFT
+
+---------- FREQUENCY ANALYSIS ----------
+Dominant frequency     : 209.05 Hz
+Peak FFT power         : 2.9782e+14 (counts squared)
+AC RMS amplitude       : 8401.04 ADC counts
+Mean-square value      : 70577508.5531 counts squared
+
+---------- WELCH PSD DETAILS ----------
+Method                 : Welch power spectral density
+Window                 : Hamming
+Window length          : 512 samples
+Overlap                : 256 samples
+FFT length             : 512 points
+Frequency resolution   : 9.7656 Hz
+Dominant PSD frequency : 205.08 Hz
+Peak PSD value         : 2.2237e+05 counts^2/Hz
+
+---------- TOP SPECTRAL PEAKS ----------
+Rank    Frequency (Hz)    Power (counts^2)
+1       209.05            2.9782e+14
+2       1368.80           1.8541e+14
+3       1578.06           1.5663e+14
+4       207.19            1.4843e+14
+5       1577.23           1.3631e+14
+
+========================================
+       ANALYSIS COMPLETED
+========================================
+>> 

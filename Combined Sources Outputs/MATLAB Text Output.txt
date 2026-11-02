@@ -1,0 +1,140 @@
+
+========================================
+       AUDIO SIGNAL ANALYSIS
+========================================
+
+---------- SELECTED FILES ----------
+First file  : audio_capture_src1.dat
+Second file : audio_capture_src2.dat
+
+---------- FILE COMBINATION ----------
+Samples in File 1 : 48613
+Samples in File 2 : 48433
+Total samples     : 97046
+
+Combined DAT file saved successfully.
+Output file: /MATLAB Drive/Combined_Audio.dat
+
+Data verification successful.
+All combined ADC samples are preserved.
+
+========================================
+       ACQUISITION DETAILS
+========================================
+Combined file name     : Combined_Audio.dat
+File size              : 194092 bytes
+Total number of samples: 97046
+Sampling frequency     : 5000.00 Hz
+Sampling period        : 0.000200 seconds
+Signal duration        : 19.4092 seconds
+Nyquist frequency      : 2500.00 Hz
+ADC resolution         : 12 bits
+ADC theoretical levels : 4096
+
+---------- TIME-DOMAIN STATISTICS ----------
+Minimum ADC count      : 2668
+Maximum ADC count      : 31776
+Mean ADC count         : 21666.05
+Standard deviation     : 8376.96 counts
+RMS ADC count          : 23229.08 counts
+Peak-to-peak amplitude : 29108 counts
+Minimum voltage        : 2.1500 V
+Maximum voltage        : 25.6070 V
+Peak-to-peak voltage   : 23.4570 V
+
+---------- FFT DETAILS ----------
+FFT length           : 97046 points
+Frequency resolution : 0.0515 Hz
+Frequency range      : 0 to 2500.00 Hz
+
+---------- FREQUENCY ANALYSIS ----------
+Dominant frequency : 206.81 Hz
+Peak FFT power     : 3.7323e+14 counts^2
+
+---------- SIGNAL POWER ----------
+AC RMS amplitude : 8376.92 ADC counts
+Mean-square value: 70172765.0006 counts^2
+
+---------- WELCH PSD DETAILS ----------
+Method                 : Welch PSD
+Window                 : Hamming
+Window length          : 512 samples
+Overlap                : 256 samples
+FFT length             : 512 points
+Frequency resolution   : 9.7656 Hz
+Dominant PSD frequency : 205.08 Hz
+Peak PSD value         : 2.1517e+05 counts^2/Hz
+
+---------- TOP FIVE SPECTRAL PEAKS ----------
+Rank    Frequency (Hz)    Power (counts^2)
+1       206.81            3.7323e+14
+2       209.02            3.2540e+14
+3       204.18            3.0178e+14
+4       2252.69           2.3887e+14
+5       2255.53           2.2985e+14
+
+========================================
+       STFT TIME-FREQUENCY ANALYSIS
+========================================
+
+---------- STFT PARAMETERS ----------
+Method                 : STFT
+Window                 : Hamming
+Window length          : 256 samples
+Window duration        : 0.0512 seconds
+Overlap                : 192 samples
+Overlap percentage     : 75.00 %
+Hop size               : 64 samples
+Time resolution        : 0.012800 seconds
+FFT length             : 1024 points
+Frequency resolution   : 4.8828 Hz
+Number of time frames  : 1513
+Number of frequency bins: 513
+
+STFT analysis completed successfully.
+
+========================================
+       WIGNER-VILLE DISTRIBUTION
+========================================
+
+---------- WVD PARAMETERS ----------
+Method                  : Wigner-Ville Distribution
+Input signal            : DC-removed signal
+Sampling frequency      : 5000.00 Hz
+Total combined samples  : 97046
+WVD samples analyzed    : 4096
+WVD signal duration     : 0.8192 seconds
+WVD frequency spacing   : 0.6105 Hz
+WVD time spacing        : 0.000100 seconds
+WVD matrix size         : 4096 x 8192
+
+WVD analysis completed successfully.
+
+========================================
+   TIME-FREQUENCY ANALYSIS SUMMARY
+========================================
+
+---------- STFT RESULTS ----------
+STFT window length       : 256 samples
+STFT overlap             : 192 samples
+STFT FFT length          : 1024 points
+STFT frequency resolution: 4.8828 Hz
+STFT time resolution     : 0.012800 seconds
+
+---------- WVD RESULTS ----------
+WVD samples analyzed     : 4096
+WVD duration             : 0.8192 seconds
+WVD frequency spacing    : 0.6105 Hz
+WVD time spacing         : 0.000100 seconds
+
+========================================
+       ANALYSIS COMPLETED
+========================================
+Two DAT files combined successfully.
+Combined file independently verified.
+FFT analysis completed.
+Welch PSD analysis completed.
+STFT analysis completed.
+WVD analysis completed.
+All graphs generated successfully.
+>> 
